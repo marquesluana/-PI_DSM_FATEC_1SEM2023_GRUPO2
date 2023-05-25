@@ -1,0 +1,284 @@
+/*
+*
+* Vamos fazer o estilo customizado aqui
+*
+*/
+
+/* Layout
+-----------------------------*/
+
+html,
+body,
+#home {
+    height: 110%;
+}
+
+body {
+    background: white;
+}
+
+
+
+/* Barra de navegação
+-----------------------------*/
+.laranja {
+    padding: 15px 0;
+    background-color: rgba(252, 188, 104, 0.9);
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: rgb(30, 151, 200);
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    color: rgb(25, 128, 168);
+}
+
+.navbar-light .navbar-toggler {
+    color: rgba(0, 0, 0, 0.5);
+    border-color: rgba(255, 255, 255, 0.5);
+}
+
+.divisor {
+    width: 1px;
+    background-color: white;
+    margin: 12px 15px;
+}
+
+#nav-principal {
+    font-weight: bold;
+    
+}
+
+/* Capa
+-----------------------------*/
+
+.capa {
+    text-align: center;
+}
+
+.capa h1 {
+    color: rgb(30, 151, 200);
+}
+
+.btn-custon {
+    color: white;
+    border-radius: 500px;
+    text-transform: uppercase;
+    transition: background 0.4s, color 0.4s;
+    padding: 10px 20px;
+}
+
+.btn-verde {
+    background: #42b992;
+    border:2px solid #42b992;
+}
+
+.btn-verde:hover {
+    background: #3dac87;
+    color: white;
+    border:2px solid #3dac87;
+}
+
+
+.btn-branco {
+    border: 2px solid #3dac87;
+    color: #3dac87;
+}
+
+.btn-branco:hover {
+    background-color: #3dac87;
+    color: white;
+}
+
+
+/* Estrutura conteúdos
+-----------------------------*/
+
+.caixa{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#servicos{
+    background: white;
+}
+
+#servicos h2, h3{
+    color: #3dac87;
+}
+
+.albuns{
+    padding: 10px 0;
+}
+
+.funcionalidades {
+    padding: 0px 20;
+}
+
+/*CAROUSEL FADE*/
+h2{
+    margin: 0;     
+    color: #666;
+    padding-top: 90px;
+    font-size: 52px;
+    font-family: "trebuchet ms", sans-serif;    
+}
+
+.item{
+    background: white;    
+    text-align: justify;
+    display: flex;
+}
+
+.carousel{
+    margin-top: 20px;
+}
+
+.bs-example{
+	margin: 20px auto;
+}
+
+.carousel .carousel-fade .item {
+  opacity:0;
+  filter: alpha(opacity=0); /* ie fix */
+}
+
+.carousel .carousel-fade .active .item {
+    opacity:1;
+    filter: alpha(opacity=100); /* ie fix */
+}
+
+.carousel .carousel-horizontal .carousel-inner {
+    display: flex;
+  }
+  
+.carousel .carousel-horizontal .carousel-item {
+    flex: 0 0 auto;
+    width: auto;
+    transition: transform 0.6s ease;
+}
+
+.carousel .carousel-horizontal .carousel-control-prev,
+.carousel .carousel-horizontal .carousel-control-next {
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.carousel.carousel-horizontal .carousel-control-prev {
+  left: 0;
+}
+
+.carousel.carousel-horizontal .carousel-control-next {
+  right: 0;
+}
+
+/* Rodapé
+-----------------------------*/
+
+footer {
+    background: #000;
+    padding: 50px 0 20px 0;
+    position: relative;
+}
+
+footer h4 {
+    color: #919496;
+    font-size: 0.8em;
+    text-transform: uppercase;
+}
+
+footer .navbar-nav a {
+    color: white;
+    font-size: 0.8em;
+}
+
+footer .navbar-nav a:hover {
+    color: #9bf0e1;
+    text-decoration: none;
+}
+
+footer ul {
+    list-style: none;
+}
+
+footer ul li {
+    float: right;
+    margin: 0 10px;
+}
+
+
+/* Tipografia
+-----------------------------*/
+
+h1 {
+    font-weight: 650;
+    letter-spacing: -0.05em;
+    margin-bottom: 50px;
+    color: white;
+
+}
+
+h2 {
+    font-size: 3em;
+    font-weight: 700;
+    letter-spacing: -0.04em;
+}
+
+h3 {
+    font-size: 2em;
+    font-weight: 700;
+    letter-spacing: -0.04em;
+}
+
+/*Dispositivos extra small (telefones em modo retrato, com menos de 576px)*/
+@media (max-width: 575.98px) {
+    .btn-custon{
+        margin: 10px 15px;
+        font-size: 1em;
+    }
+ }
+
+/*Dispositivos small (telefones em modo paisagem, com 576px ou mais)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+    h1{
+        font-size: 3em;
+    }
+    .btn-custon{
+        margin: 10px 15px;
+        font-size: 1em;
+    }
+}
+
+/*Dispositivos médios (tablets com 768px ou mais)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+    h1{
+        font-size: 4em;
+    }
+    .btn-custon{
+        margin: 15px 20px;
+        font-size: 2em;
+    }
+}
+
+/*Dispositivos large (desktops com 992px ou mais)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    h1{
+        font-size: 5em;
+    }
+    .btn-custon{
+        margin: 15px 20px;
+        font-size: 2em;
+    }
+}
+
+/*Dispositivos extra large (desktops grandes com 1200px ou mais)*/
+@media (min-width: 1200px) {
+    h1{
+        font-size: 6em;
+    }
+    .btn-custon{
+        margin: 20px 30px;
+        font-size: 2em;
+    }
+}
