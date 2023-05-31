@@ -26,19 +26,12 @@ body {
     background-color: rgba(252, 188, 104, 0.9);
 }
 
-.navbar-light .navbar-nav .nav-link::before {
-    border-bottom: 7.5% solid #0056B3;
-    visibility: hidden;
-    -webkit-transform: scaleX(0);
-    transform: scaleX(0);
-    -webkit-transition: all 0.3s ease-in-out 0s;
-    transition: all 0.4s ease-in-out 0s;
+.navbar-light .navbar-nav .nav-link {
+    color: rgb(30, 151, 200);
 }
 
-.navbar-light .navbar-nav .nav-link:hover::before {
-    visibility: visible;
-    -webkit-transform: scaleX(1);
-    transform: scaleX(1);
+.navbar-light .navbar-nav .nav-link:hover {
+    color: rgb(25, 128, 168);
 }
 
 .navbar-light .navbar-toggler {
@@ -46,15 +39,8 @@ body {
     border-color: rgba(255, 255, 255, 0.5);
 }
 
-.divisor {
-    width: 1px;
-    background-color: white;
-    margin: 12px 15px;
-}
-
 #nav-principal {
-    font-weight: bold;
-    
+    font-weight: bold;   
 }
 
 /* Capa
