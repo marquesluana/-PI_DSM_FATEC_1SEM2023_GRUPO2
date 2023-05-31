@@ -10,7 +10,7 @@
 html,
 body,
 #home {
-    height: 110%;
+    height: 102%;
 }
 
 body {
@@ -40,7 +40,7 @@ body {
 }
 
 #nav-principal {
-    font-weight: bold;   
+    font-weight: bold;
 }
 
 /* Capa
@@ -51,14 +51,13 @@ body {
 }
 
 .capa h1 {
-    color: rgb(30, 151, 200);
+    color: #1e97c8;
 }
 
 .btn-custon {
     color: white;
     border-radius: 500px;
     text-transform: uppercase;
-    transition: background 0.4s, color 0.4s;
     padding: 10px 20px;
 }
 
@@ -89,8 +88,7 @@ body {
 -----------------------------*/
 
 .caixa{
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding-top: 120px;
 }
 
 #servicos{
@@ -109,11 +107,14 @@ body {
     padding: 0px 20;
 }
 
+#atividades{
+    padding-top: 120px;
+}
+
 /*CAROUSEL FADE*/
 h2{
     margin: 0;     
     color: #666;
-    padding-top: 90px;
     font-size: 52px;
     font-family: "trebuchet ms", sans-serif;    
 }
