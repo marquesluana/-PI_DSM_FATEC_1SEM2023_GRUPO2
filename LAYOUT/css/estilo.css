@@ -107,8 +107,6 @@ body {
     padding: 0px 20;
 }
 
-
-
 /* Atividades
 -----------------------------*/
 
@@ -116,12 +114,18 @@ body {
     padding-top: 120px;
 }
 
-
+.ativ{
+    text-align: center;
+    border: solid #646464;
+    border-width: 1px 1px 0 1px;
+    padding: 1em 1em 0.1em 1em;
+}
 
 /* Rodapé
 -----------------------------*/
 
 footer {
+    margin-top: 2em;
     background: #000;
     padding: 50px 0 20px 0;
     position: relative;
