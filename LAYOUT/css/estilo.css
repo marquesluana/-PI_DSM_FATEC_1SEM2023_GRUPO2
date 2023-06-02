@@ -121,6 +121,12 @@ body {
     padding: 1em 1em 0.1em 1em;
 }
 
+.ativpag{
+    border: solid #646464;
+    border-width: 1px;
+    padding: 1em 1em 0.1em 1em;
+}
+
 /* Rodapé
 -----------------------------*/
 
