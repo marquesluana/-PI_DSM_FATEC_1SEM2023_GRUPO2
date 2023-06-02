@@ -25,46 +25,31 @@
   <header>
     <nav class="navbar navbar-expand-md navbar-light fixed-top laranja">
       <div class="container">
-        <a href="index.html" class="navbar-brand">
-          <img src="./imagens/logo-educacao3.png" width="100">
-        </a>
         <button class="navbar-toggler" data-toggle="collapse" data-target=" #nav-principal">
           <i class="fas fa-bars text-white"></i>
         </button>
         <div class="collapse navbar-collapse" id="nav-principal">
-          <ul class="navbar-nav ">
+          <ul class="navbar-nav mx-auto">
             <li class="nav-item ml-5">
-              <a href="" class="nav-link">Sobre nós</a>
+              <a href="#servicos" class="nav-link">Sobre nós</a>
             </li>
-            <li class="nav-item ml-3">
-              <a href="" class="nav-link">Atividades</a>
-            <li class="nav-item ml-3">
-              <a href="" class="nav-link">Contribuidores</a>
+            <li class="nav-item ml-5">
+              <a href="#atividades" class="nav-link">Atividades</a>
             </li>
-
-            <li class="nav-item">
-
+            <a href="index.html" class="navbar-brand ml-5">
+              <a href="#home"><img src="./imagens/logo-educacao3.png" width="100"></a>
+           </a>
+            <li class="nav-item ml-5">
+              <a href="" class="nav-link">Dúvidas e Pedidos</a>
             </li>
-
-            <li class="nav-item ml-3">
-              <a href="" class="nav-link">Cadastre-se</a>
-            </li>
-            <li class="nav-item ml-3">
-              <a href="" class="nav-link">Entrar</a>
+            <li class="nav-item ml-5">
+              <a href="" class="nav-link">Cadastrar</a>
             </li>
           </ul>
-          <form class="form-inline my-2 my-lg-0 ml-5">
-            <input class="form-control mr-sm-2" type="search" placeholder="Pesquisar" aria-label="Pesquisar">
-            <button class="btn btn-outline-secondary my-2 my-sm-0" type="submit"><img src="./imagens/icone-pesquisa.png" width="22"></button>
-          </form>
         </div>
       </div>
     </nav>
-
-
   </header>
-
-
 
   <section id="home" class="d-flex">
     <div class="container align-self-center">
@@ -74,14 +59,14 @@
           <a href="" class="btn btn-lg btn-custon btn-verde">
             Cadastre-se
           </a>
-          <a href="" class="btn btn-lg btn-custon btn-branco">
+          <a href="#servicos" class="btn btn-lg btn-custon btn-branco">
             Saiba mais
           </a>
         </div>
       </div>
     </div>
-
   </section>
+
   <section id="servicos" class="caixa">
     <div class="container-fluid">
       <div class="row">
@@ -118,33 +103,114 @@
     </div>
   </section>
 
-  <section>
-    <div id="carouselExampleIndicators" class="carousel slide bs-example carousel-horizontal" data-ride="carousel">
-      <ol class="carousel-indicators">
-        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-      </ol>
-      <div class="carousel-inner">
-        <div class="carousel-item carousel-fade item col-12 col-sm-6 col-md-4 col-lg-3 active">
-          <img class="img-fluid" src="./imagens/atividade1.jpg" alt="Primeiro Slide">
-        </div>
-        <div class="carousel-item carousel-fade item col-12 col-sm-6 col-md-4 col-lg-3">
-          <img class="img-fluid" src="./imagens/atividade2.png" alt="Segundo Slide">
-        </div>
-        <div class="carousel-item carousel-fade item col-12 col-sm-6 col-md-4 col-lg-3">
-          <img class="img-fluid" src="./imagens/atividade3.jpg" alt="Terceiro Slide">
-        </div>
-      </div>
-      <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="sr-only">Anterior</span>
-      </a>
-      <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="sr-only">Próximo</span>
-      </a>
+  <section id="atividades">
+    <div class="ativ">
+      <p>
+        <a class="btn btn-light" data-toggle="collapse" href="#3a6" role="button" aria-expanded="false" aria-controls="3a6">Crianças de 3 a 6 anos</a>
+        <a class="btn btn-light" role="button" data-toggle="collapse" href="#7a11" aria-expanded="false" aria-controls="7a11">Crianças de 7 a 11 anos</a>
+        <a class="btn btn-light" role="button" data-toggle="collapse" href="#12a15" aria-expanded="false" aria-controls="12a15">Crianças de 12 a 15 anos</a>
+      </p>
     </div>
+    <div class="ativ">
+      <p>
+        <a class="btn btn-light ml-5" data-toggle="collapse" href="#mat" role="button" aria-expanded="false" aria-controls="3a6">Matemática</a>
+        <a class="btn btn-light ml-5" role="button" data-toggle="collapse" href="#port" aria-expanded="false" aria-controls="7a11">Português</a>
+        <a class="btn btn-light ml-5" role="button" data-toggle="collapse" href="#cien" aria-expanded="false" aria-controls="12a15">Ciências</a>
+        <a class="btn btn-light ml-5" role="button" data-toggle="collapse" href="#hist" aria-expanded="false" aria-controls="12a15">História</a>
+        <a class="btn btn-light ml-5" role="button" data-toggle="collapse" href="#geo" aria-expanded="false" aria-controls="12a15">Geografia</a>
+      </p>
+    </div>
+    <div class="ativpag">
+      <table class="table table-borderless">
+        <thead style="float: left;">
+          <tr>
+            <th>
+              <button class="btn btn-light px-5 mx-3" type="button">
+                <h5>Atividade1.png</h5>
+              </button>
+            </th>
+          </tr>
+          <tr>
+            <th>
+              <h5 class="mb-0">
+                <button class="btn btn-light px-5 mx-3" type="button">
+                  <h5>Atividade2.png</h5>
+                </button>
+              </h5>
+            </th>
+          </tr>
+          <tr>
+            <th>
+              <h5 class="mb-0">
+                <button class="btn btn-light px-5 mx-3" type="button">
+                  <h5>Atividade3.png</h5>
+                </button>
+              </h5>
+            </th>
+          </tr>
+          <tr>
+            <th>
+              <h5 class="mb-0">
+                <button class="btn btn-light px-5 mx-3" type="button">
+                  <h5>Atividade4.png</h5>
+                </button>
+              </h5>
+            </th>
+          </tr>
+          <tr>
+            <th>
+              <h5 class="mb-0">
+                <button class="btn btn-light px-5 mx-3" type="button">
+                  <h5>Atividade5.png</h5>
+                </button>
+              </h5>
+            </th>
+          </tr>
+          <tr>
+            <th>
+              <h5 class="mb-0">
+                <button class="btn btn-light px-5 mx-3" type="button">
+                  <h5>Atividade6.png</h5>
+                </button>
+              </h5>
+            </th>
+          </tr>
+          <tr>
+            <th>
+              <h5 class="mb-0">
+                <button class="btn btn-light px-5 mx-3" type="button">
+                  <h5>Atividade7.png</h5>
+                </button>
+              </h5>
+            </th>
+          </tr>
+          <tr>
+            <th>
+              <h5 class="mb-0">
+                <button class="btn btn-light px-5 mx-3" type="button">
+                  <h5>Atividade8.png</h5>
+                </button>
+              </h5>
+            </th>
+          </tr>
+          <tr>
+            <th>
+              <h5 class="mb-0">
+                <button class="btn btn-light px-5 mx-3" type="button">
+                  <h5>Atividade9.png</h5>
+                </button>
+              </h5>
+            </th>
+          </tr>
+        </thead>
+        <tbody style="float: right;">
+          <tr>
+            <th>
+              <img src="imagens/atividade2.png">
+            </th>
+          </tr>
+        </tbody>
+      </table>
   </section>
 
   <footer>

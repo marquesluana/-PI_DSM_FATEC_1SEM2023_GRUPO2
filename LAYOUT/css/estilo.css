@@ -10,7 +10,7 @@
 html,
 body,
 #home {
-    height: 110%;
+    height: 102%;
 }
 
 body {
@@ -39,15 +39,8 @@ body {
     border-color: rgba(255, 255, 255, 0.5);
 }
 
-.divisor {
-    width: 1px;
-    background-color: white;
-    margin: 12px 15px;
-}
-
 #nav-principal {
     font-weight: bold;
-    
 }
 
 /* Capa
@@ -58,14 +51,13 @@ body {
 }
 
 .capa h1 {
-    color: rgb(30, 151, 200);
+    color: #1e97c8;
 }
 
 .btn-custon {
     color: white;
     border-radius: 500px;
     text-transform: uppercase;
-    transition: background 0.4s, color 0.4s;
     padding: 10px 20px;
 }
 
@@ -96,8 +88,7 @@ body {
 -----------------------------*/
 
 .caixa{
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding-top: 120px;
 }
 
 #servicos{
@@ -116,67 +107,33 @@ body {
     padding: 0px 20;
 }
 
-/*CAROUSEL FADE*/
-h2{
-    margin: 0;     
-    color: #666;
-    padding-top: 90px;
-    font-size: 52px;
-    font-family: "trebuchet ms", sans-serif;    
+/* Atividades
+-----------------------------*/
+
+#atividades{
+    padding-top: 120px;
 }
 
-.item{
-    background: white;    
-    text-align: justify;
-    display: flex;
+.ativ{
+    text-align: center;
+    border: solid #646464;
+    border-width: 1px 1px 0 1px;
+    padding: 1em 1em 0.1em 1em;
+    margin: 0 10em 0 10em;
 }
 
-.carousel{
-    margin-top: 20px;
-}
-
-.bs-example{
-	margin: 20px auto;
-}
-
-.carousel .carousel-fade .item {
-  opacity:0;
-  filter: alpha(opacity=0); /* ie fix */
-}
-
-.carousel .carousel-fade .active .item {
-    opacity:1;
-    filter: alpha(opacity=100); /* ie fix */
-}
-
-.carousel .carousel-horizontal .carousel-inner {
-    display: flex;
-  }
-  
-.carousel .carousel-horizontal .carousel-item {
-    flex: 0 0 auto;
-    width: auto;
-    transition: transform 0.6s ease;
-}
-
-.carousel .carousel-horizontal .carousel-control-prev,
-.carousel .carousel-horizontal .carousel-control-next {
-  top: 50%;
-  transform: translateY(-50%);
-}
-
-.carousel.carousel-horizontal .carousel-control-prev {
-  left: 0;
-}
-
-.carousel.carousel-horizontal .carousel-control-next {
-  right: 0;
+.ativpag{
+    border: solid #646464;
+    border-width: 1px;
+    padding: 1em 1em 0.1em 1em;
+    margin: 0 10em 0 10em;
 }
 
 /* Rodapé
 -----------------------------*/
 
 footer {
+    margin-top: 2em;
     background: #000;
     padding: 50px 0 20px 0;
     position: relative;
