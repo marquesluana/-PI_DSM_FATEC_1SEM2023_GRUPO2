@@ -47,6 +47,7 @@ body {
 -----------------------------*/
 
 .capa {
+    margin-top: 10%;
     text-align: center;
 }
 
@@ -55,6 +56,13 @@ body {
 }
 
 .btn-custon {
+    color: white;
+    border-radius: 500px;
+    text-transform: uppercase;
+    padding: 10px 20px;
+}
+
+.btn-entrar {
     color: white;
     border-radius: 500px;
     text-transform: uppercase;
@@ -99,12 +107,30 @@ body {
     color: #3dac87;
 }
 
-.albuns{
+.imagens{
     padding: 10px 0;
 }
 
 .funcionalidades {
     padding: 0px 20;
+}
+
+#cadastro {
+    margin-top: 15%;
+}
+
+#cadastro h1{
+    font-size: 30px;
+    color: #1e97c8;
+    
+}
+
+.entrar{
+    margin-top: 15px;
+    padding: 5% 10%;
+    align-items: center;
+    background-color: rgba(252, 188, 104, 0.9);
+    border-radius: 20px;
 }
 
 /* Atividades
