@@ -127,8 +127,7 @@ body {
 
 .entrar{
     margin-top: 15px;
-    padding: 5% 10%;
-    align-items: center;
+    padding: 5% 5%;
     background-color: rgba(252, 188, 104, 0.9);
     border-radius: 20px;
 }
