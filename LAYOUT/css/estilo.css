@@ -148,15 +148,20 @@ body {
 }
 
 .ativpag{
+    text-align: center;
     border: solid #646464;
     border-width: 1px;
     padding: 1em 1em 0.1em 1em;
     margin: 0 10em 0 10em;
 }
 
-.ativ .btn{
+.ativ .btn, .ativpag .btn, .adicionarAtiv .btn{
     background-color: #3dac87;
     color: white;
+}
+
+.ativpag .list-group a{
+    padding: 0.7em 6em;
 }
 
 /* Rodapé
