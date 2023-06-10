@@ -122,7 +122,15 @@ body {
 #cadastro h1{
     font-size: 30px;
     color: #1e97c8;
-    
+}
+
+#adicionar{
+    margin-top: 10%;
+}
+
+#adicionar h1{
+    font-size: 30px;
+    color: #1e97c8;
 }
 
 .entrar{

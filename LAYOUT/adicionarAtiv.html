@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+    <!-- Font Awesome-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css"
+        integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+
+    <!-- Estilo customizado -->
+    <link rel="stylesheet" type="text/css" href="css/estilo.css">
+    <link rel="icon" href="imagens/logo-educacao1.png">
+
+    <title>Adicionar Atividade</title>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-md navbar-light fixed-top laranja">
+            <div class="container">
+                <button class="navbar-toggler" data-toggle="collapse" data-target=" #nav-principal">
+                    <i class="fas fa-bars text-white"></i>
+                </button>
+                <div class="collapse navbar-collapse" id="nav-principal">
+                    <ul class="navbar-nav mx-auto">
+                        <li class="nav-item ml-5">
+                            <a href="index.html#servicos" class="nav-link">Sobre nós</a>
+                        </li>
+                        <li class="nav-item ml-5">
+                            <a href="index.html#atividades" class="nav-link">Atividades</a>
+                        </li>
+                        <a href="index.html" class="navbar-brand ml-5">
+                            <a href="./index.html"><img src="./imagens/logo-educacao3.png" width="100"></a>
+                        </a>
+                        <li class="nav-item ml-5">
+                            <a href="index.html#duvida" class="nav-link">Dúvidas e Pedidos</a>
+                        </li>
+                        <li class="nav-item ml-5">
+                            <a href="cadastro.html" class="nav-link">Entrar</a>
+                        </li>
+                    </ul>
+                </div>
+            </div> 
+        </nav>
+    </header>
+
+    <section>
+        <div id="adicionar" class="container">
+            <div class="row p-5 border rounded">
+                <div class="col-md-6">
+                    <form>
+                        <h1>Adicionar Atividade</h1>
+                        <div class="form-row">
+                            <div class="col-md-12 mb-3">
+                                <label for="validationServer01">Nome da Atividade</label>
+                                <input type="text" class="form-control" id="validationServer01"
+                                placeholder="Nome" value="" required>
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="col-md-12 mb-3">
+                                <label for="validationServer01">Temas Abordado(s)</label>
+                                <input type="text" class="form-control" id="validationServer01"
+                                placeholder="Temas" value="" required>
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group col-md-4">
+                                <label for="exampleFormControlSelect1">Idade</label>
+                                <select class="form-control" id="exampleFormControlSelect1">
+                                    <option>3 a 6</option>
+                                    <option>7 a 11</option>
+                                    <option>12 a 15</option>
+                                </select>
+                            </div>
+                            <div class="form-group col-md-8">
+                                <label for="exampleFormControlSelect1">Matéria</label>
+                                <select class="form-control" id="exampleFormControlSelect1">
+                                  <option>Matemática</option>
+                                  <option>Português</option>
+                                  <option>História</option>
+                                  <option>Geografia</option>
+                                  <option>Ciências</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="input-group mb-4 mt-4">
+                            <div class="custom-file">
+                                <input type="file" class="custom-file-input" id="inputGroupFile01" aria-describedby="inputGroupFileAddon01">
+                                <label class="custom-file-label" for="inputGroupFile01">Escolha um arquivo</label>
+                            </div>
+                        </div>
+                        <button class="btn btn-primary" type="submit">Enviar</button>
+                    </form>
+                </div>
+                <div class="col-md-1"></div>
+                <div class="col-md-4">
+                    <img src="imagens/atividade3.jpg" style="width: 120%;" alt="Atividade a ser enviada">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3">
+                    <img src="./imagens/logo-educacao3.png" width="130">
+                </div>
+                <div class="col-md-2">
+                    <h4>Project</h4>
+                    <ul class="navbar-nav">
+                        <li><a href="">Sobre</a></li>
+                        <li><a href="">Empregos</a></li>
+                        <li><a href="">Patrocinadores</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-2">
+                    <h4>Contribuidores</h4>
+                    <ul class="navbar-nav">
+                        <li><a href="">Professores</a></li>
+                        <li><a href="">Outros Profissionais</a></li>
+                        <li><a href="">Instituições</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-2">
+                    <h4>Links Úteis</h4>
+                    <ul class="navbar-nav">
+                        <li><a href="">Ajuda</a></li>
+                        <li><a href="">Termos de uso</a></li>
+                        <li><a href="">Política e Privacidade</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-3">
+                    <ul>
+                        <li><a href=""><img src="./imagens/facebook.png" width="50"></a></li>
+                        <li><a href=""><img src="./imagens/twitter.png" width="50"></a></li>
+                        <li><a href=""><img src="./imagens/instagram.png" width="50"></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
