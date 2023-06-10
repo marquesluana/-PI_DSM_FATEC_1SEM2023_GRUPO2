@@ -17,7 +17,7 @@
     <link rel="stylesheet" type="text/css" href="css/estilo.css">
     <link rel="icon" href="imagens/logo-educacao1.png">
 
-    <title>Cadastro SeeKnow</title>
+    <title>Adicionar Atividade</title>
 </head>
 
 <body>
@@ -42,7 +42,7 @@
                             <a href="index.html#duvida" class="nav-link">Dúvidas e Pedidos</a>
                         </li>
                         <li class="nav-item ml-5">
-                            <a href="" class="nav-link">Entrar</a>
+                            <a href="cadastro.html" class="nav-link">Entrar</a>
                         </li>
                     </ul>
                 </div>
@@ -51,67 +51,57 @@
     </header>
 
     <section>
-        <div id="cadastro" class="container">
-            <div class="row">
+        <div id="adicionar" class="container">
+            <div class="row p-5 border rounded">
                 <div class="col-md-6">
                     <form>
-                        <h1>Cadastro</h1>
+                        <h1>Adicionar Atividade</h1>
                         <div class="form-row">
-                            <div class="col-md-7 mb-3">
-                                <label for="validationServer01">Nome Completo</label>
+                            <div class="col-md-12 mb-3">
+                                <label for="validationServer01">Nome da Atividade</label>
                                 <input type="text" class="form-control" id="validationServer01"
                                 placeholder="Nome" value="" required>
                             </div>
-                            <div class="col-md-5 mb-3">
-                                <label for="validationServerUsername">Usuário</label>
-                                <div class="input-group">
-                                    <div class="input-group-prepend">
-                                        <span class="input-group-text" id="inputGroupPrepend3">@</span>
-                                    </div>
-                                    <input type="text" class="form-control" id="validationServerUsername"
-                                    placeholder="Usuário" aria-describedby="inputGroupPrepend3" required>
-                                </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="col-md-12 mb-3">
+                                <label for="validationServer01">Temas Abordado(s)</label>
+                                <input type="text" class="form-control" id="validationServer01"
+                                placeholder="Temas" value="" required>
                             </div>
                         </div>
                         <div class="form-row">
-                            <div class="col-md-6">
-                                <label for="inputEmail4">Email</label>
-                                <input type="email" class="form-control" id="inputEmail4" placeholder="Email">
+                            <div class="form-group col-md-4">
+                                <label for="exampleFormControlSelect1">Idade</label>
+                                <select class="form-control" id="exampleFormControlSelect1">
+                                    <option>3 a 6</option>
+                                    <option>7 a 11</option>
+                                    <option>12 a 15</option>
+                                </select>
                             </div>
-                            <div class="form-group col-md-6">
-                                <label for="inputPassword4">Senha</label>
-                                <input type="password" class="form-control" id="inputPassword4" placeholder="Senha">
+                            <div class="form-group col-md-8">
+                                <label for="exampleFormControlSelect1">Matéria</label>
+                                <select class="form-control" id="exampleFormControlSelect1">
+                                  <option>Matemática</option>
+                                  <option>Português</option>
+                                  <option>História</option>
+                                  <option>Geografia</option>
+                                  <option>Ciências</option>
+                                </select>
                             </div>
                         </div>
-                        <div class="form-group">
-                            <div class="form-check">
-                                <input class="form-check-input" type="checkbox" value="" id="invalidCheck3"
-                                    required>
-                                <label class="form-check-label" for="invalidCheck3">
-                                    Concordo com os termos e condições
-                                </label>
+                        <div class="input-group mb-4 mt-4">
+                            <div class="custom-file">
+                                <input type="file" class="custom-file-input" id="inputGroupFile01" aria-describedby="inputGroupFileAddon01">
+                                <label class="custom-file-label" for="inputGroupFile01">Escolha um arquivo</label>
                             </div>
                         </div>
                         <button class="btn btn-primary" type="submit">Enviar</button>
                     </form>
                 </div>
-                <div class="col-md-2"></div>
-                <div class="col-md-4 entrar">
-                    <h1>Já possui cadastro?</h1>
-                    <form>
-                        <div class="form-group">
-                            <label for="exampleInputEmail1">Endereço de email</label>
-                            <input type="email" class="form-control" id="exampleInputEmail1"
-                                aria-describedby="emailHelp" placeholder="Seu email">
-                        </div>
-                        <div class="form-group">
-                            <label for="exampleInputPassword1">Senha</label>
-                            <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Senha">
-                        </div>
-                    </form>
-                    <a href="" class="btn btn-lg btn-verde btn-entrar mt-5">
-                        Entrar
-                    </a>
+                <div class="col-md-1"></div>
+                <div class="col-md-4">
+                    <img src="imagens/atividade3.jpg" style="width: 120%;" alt="Atividade a ser enviada">
                 </div>
             </div>
         </div>

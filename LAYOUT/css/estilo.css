@@ -122,13 +122,20 @@ body {
 #cadastro h1{
     font-size: 30px;
     color: #1e97c8;
-    
+}
+
+#adicionar{
+    margin-top: 10%;
+}
+
+#adicionar h1{
+    font-size: 30px;
+    color: #1e97c8;
 }
 
 .entrar{
     margin-top: 15px;
-    padding: 5% 10%;
-    align-items: center;
+    padding: 5% 5%;
     background-color: rgba(252, 188, 104, 0.9);
     border-radius: 20px;
 }
@@ -149,10 +156,42 @@ body {
 }
 
 .ativpag{
+    text-align: center;
     border: solid #646464;
     border-width: 1px;
     padding: 1em 1em 0.1em 1em;
     margin: 0 10em 0 10em;
+}
+
+.ativ .btn, .ativpag .btn, .adicionarAtiv .btn{
+    background-color: #3dac87;
+    color: white;
+}
+
+.ativpag .list-group a{
+    padding: 0.7em 6em;
+}
+
+/*Dúvidas e Pedidos
+-----------------------------*/
+
+#duvida{
+    padding-top: 120px;
+}
+
+.pedido{
+    border: solid #646464;
+    border-width: 1px;
+    padding: 3em;
+    margin: 0em 6em 0em 6em;
+}
+
+.comenta{
+    text-align: center;
+    border: solid #646464;
+    border-width: 1px 1px 0 1px;
+    padding: 2em;
+    margin: 0em 6em 0em 6em;
 }
 
 /* Rodapé
